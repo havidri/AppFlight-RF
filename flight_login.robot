@@ -12,10 +12,9 @@ User should be able login with valid username
     Tap button SingIn
     Verification successful login
 
-User should be able login with invalid username
+User should not be able login with invalid username
     Tap button Login
     Input username     support@ngendigitl.com
     Input passwords    abc1231
     Tap button SingIn
     Verification failed login
-    
